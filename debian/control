@@ -1,0 +1,12 @@
+Source: ros-kinetic-ifm-o3mxxx
+Section: misc
+Priority: extra
+Maintainer: Antti Kolu <antti.kolu@tut.fi>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-message-generation, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ifm-o3mxxx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-geometry-msgs, ros-kinetic-message-runtime, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-tf
+Description: The ifm_o3mxxx package
